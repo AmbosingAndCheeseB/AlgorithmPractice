@@ -4,13 +4,14 @@ using namespace std;
 
 int main(){
 	
-	int test, i, j, fac, per;
+	int test, i, j;
+	long long fac, per;
 	
 	cin >> test;
 	
 	int *n = new int[test];
 	int *m = new int[test];
-	int *ans = new int[test];
+	long long *ans = new long long[test];
 	
 	for(i=0; i<test; i++)
 		cin >> n[i] >> m[i];
